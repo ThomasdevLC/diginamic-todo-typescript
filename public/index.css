@@ -1,14 +1,40 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
+button {
+  border-radius: 10px;
 }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
+form > button {
+  padding: 8px;
+  font-weight: 700;
+}
+form > button:hover {
+  cursor: pointer;
+}
+input {
+  padding: 8px;
+  margin-right: 20px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid plum;
+  border-radius: 10px;
+}
+
+article > div > button {
+  height: 35px;
+  width: 95px;
+  margin-left: 10px;
+}
+article > div > button:hover {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
 }
