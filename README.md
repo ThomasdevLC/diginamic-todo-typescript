@@ -7,9 +7,6 @@ Pour démarrer l'application, assurez-vous d'exécuter `npm install` pour instal
 Exécute l'application en mode développement.
 Ouvre http://localhost:8080 pour la visualiser dans le navigateur.
 
-La page se rechargera si vous apportez des modifications.
-Vous verrez également toutes les erreurs de lint dans la console.
-
 ### Serveur JSON (JSON Server)
 
 Pour simuler un serveur de base de données, vous pouvez utiliser JSON Server. Voici comment l'installer et le démarrer :
